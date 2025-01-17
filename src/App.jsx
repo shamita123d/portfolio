@@ -8,8 +8,8 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 
 export default function App() {
-  const[darkMode,setDarkMode]=useState(false);
 
+  const[darkMode,setDarkMode]=useState(false);
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");

@@ -19,7 +19,7 @@ export default function Hero() {
               variants={container(0.5)}
               initial="hidden"
               animate="visible"
-              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight 
+              className=" bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight 
                         text-transparent"
             >
               Hi I'm
@@ -28,9 +28,7 @@ export default function Hero() {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="pb-16 text-6xl font-thin tracking-tight
-                        lg:mt-16 lg:text-7xl 
-                       "
+              className="bg-gradient-to-r from-gray-500 via-white to-blue-400 bg-clip-text text-4xl tracking-tight text-transparent pb-10 text-4xl font-bold tracking-tight lg:mt-10 lg:text-5xl pt-10 lg:pt-0"
             >
               Shamita Deogade
             </motion.h1>
@@ -55,24 +53,26 @@ export default function Hero() {
             <a
               href="/Resume.pdf" // Path to resume in the public folder
               download
-              className="mt-5 px-5 py-2 bg-cyan-500 text-white rounded-md"
+              className="mt-5 mb-10 px-5 py-2 bg-cyan-500 text-white rounded-md hover:bg-white hover:text-cyan-500  transition duration-300 ease-in-out"
             >
               Download Resume
             </a>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center">
-            <motion.img
-              initial={{ x: 100, opacity: 0 }}
-              animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
-              className="w-80 h-99 rounded-2xl"
-              src={profilePic}
-              alt="profilepic"
-            />
+        
+          <div className="w-full lg:w-1/2 p-4 lg:p-8">
+            <div className="flex justify-center items-center">
+              <motion.img
+                initial={{ x: 100, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 1.2 }}
+                className="w-[50%] lg:w-[45%] h-auto rounded-2xl shadow-lg border-8 border-gray-300 hover:border-blue-500 transition duration-300 ease-in-out"
+                src={profilePic}
+                alt="Profile Picture"
+              />
+            </div>
           </div>
-        </div>
+        
       </div>
     </div>
   );

@@ -3,11 +3,7 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `As a fresh graduate and an enthusiastic full stack developer, 
-I have a talent for building durable and scalable web applications.
-I have developed strong skills in front-end technologies such as React and Next.js, 
-as well as back-end technologies including Node.js,Springboot,MySQL. 
-My objective is to utilize my knowledge to develop creative solutions that enhance business growth and provide outstanding user experiences.`;
+export const HERO_CONTENT = `As a fresh graduate and an enthusiastic full-stack developer, I am passionate about building durable, scalable web applications. I aim to create innovative solutions that drive business growth and enhance user experiences. With a strong foundation in both front-end and back-end development, I am eager to contribute to dynamic projects. My focus is on continuously learning and growing as a developer to deliver high-quality, impactful work.`;
 
 export const ABOUT_TEXT = `I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 

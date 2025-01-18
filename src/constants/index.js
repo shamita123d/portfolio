@@ -5,7 +5,9 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `As a fresh graduate and an enthusiastic full-stack developer, I am passionate about building durable, scalable web applications. I aim to create innovative solutions that drive business growth and enhance user experiences. With a strong foundation in both front-end and back-end development, I am eager to contribute to dynamic projects. My focus is on continuously learning and growing as a developer to deliver high-quality, impactful work.`;
 
-export const ABOUT_TEXT = `I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `
+      With expertise in frameworks like React and Spring Boot, I believe in continuous learning and development. I enjoy solving complex problems, collaborating with teams, and delivering high-quality, user-friendly applications.
+   `;
 
 export const EXPERIENCES = [
   {
@@ -39,38 +41,38 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Gas Lekage Detection System",
-    image: project1,
-    description:
-      "A fully functional System with features like  with features such as alert notification,emits the dangerous gas out.",
-    technologies: ["Arduino Software", "Microcontroller"],
-  },
+  // {
+  //   title: "Gas Lekage Detection System",
+  //   image: project1,
+  //   description:
+  //     "A fully functional System with features like  with features such as alert notification,emits the dangerous gas out.",
+  //   technologies: ["Arduino Software", "Microcontroller"],
+  // },
   {
     title: "Weather Forcasting Application",
     image: project2,
     description:
       "An application for forcasting weather, with features such as gives current weather forcast,weather forcast by days and hours,also provide notification in heavy condtion.",
-    technologies: ["html", "CSS","Javascript","Springboot","Mysql"],
+    technologies: ["html", "CSS", "Javascript", "Springboot", "Mysql"],
   },
   {
-    title: "Portfolio Website",
+    title: "Student Management System",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Tailwindcss","Vite"],
+      "A Student Management System provides a graphical user interface (GUI) for managing student records. Also store data in database.",
+    technologies: ["Java", "JDBC", "Swing","Mysql"],
   },
-  {
-    title: "TODO List",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["React" ,"Vite","Tailwind CSS","MySQL"],
-  },
+  // {
+  //   title: "TODO List",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["React", "Vite", "Tailwind CSS", "MySQL"],
+  // },
 ];
 
 export const CONTACT = {
-  address: "Nagpur,Maharasgtra-440035 ",
-  phoneNo: "+91 8421965338 ",
-  email: "shamitadeogade.com",
+  address: "Nagpur,Maharashtra-440035 ",
+  // phoneNo: "+91 8421965338 ",
+  email: "shamitadeogade93@gmail.com",
 };

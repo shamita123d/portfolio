@@ -23,8 +23,8 @@ export default function Project() {
             >
               <img
                 src={project.image}
-                width={150}
-                height={150}
+                width={155}
+                height={155}
                 alt={project.title}
                 className="mb-6 rounded"
               />

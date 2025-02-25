@@ -9,7 +9,7 @@ export default function About() {
         About
         <span className="text-neutral-500">Me</span>
       </h2>
-      <div className="flex flex-wrap">
+      <div className="flex flex-wrap"> 
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}

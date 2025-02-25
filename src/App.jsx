@@ -6,10 +6,10 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 
 import Technologies from "./components/Technologies";
+import Experience from "./components/Experience";
 
 export default function App() {
-
-  const[darkMode,setDarkMode]=useState(true);
+  const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
     if (darkMode) {
       document.documentElement.classList.add("dark");
@@ -24,9 +24,9 @@ export default function App() {
         darkMode ? "bg-black" : ""
       }`}
     >
-      <div className="  fixed top-0 -z-10 h-full w-full">
+      <div className="fixed top-0 -z-10 h-full w-full">
         <div
-          className="  absolute top-0 z-[-2] h-screen w-screen
+          className="absolute top-0 z-[-2] h-screen w-screen
       bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"
         ></div>
       </div>
@@ -37,7 +37,7 @@ export default function App() {
       <About />
       {/* <Skills /> */}
       <Technologies />
-      {/* <Experience /> */}
+       <Experience /> 
       <Projects />
       {/* <Testimonials /> */}
       <Contact />
